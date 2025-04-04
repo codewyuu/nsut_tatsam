@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Tatsam Hindi Literature Community</title>
+    <link rel="icon" type="image/svg+xml" href="/public/tatsam-logo.svg">
+    <link rel="stylesheet" href="/styles/main.css">
+    <style>
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .blog-card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .blog-content {
+            padding: 1.5rem;
+        }
+
+        .blog-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .blog-excerpt {
+            margin-bottom: 1.5rem;
+            color: #444;
+        }
+
+        .read-more {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="/">
+                <img src="/public/tatsam-logo.svg" alt="Tatsam Logo" class="logo">
+                <span>Tatsam</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/about.html" class="nav-link">About</a>
+            <a href="/events.html" class="nav-link">Events</a>
+            <a href="/blog.html" class="nav-link active">Blog</a>
+            <a href="/gallery.html" class="nav-link">Gallery</a>
+            <a href="/members.html" class="nav-link">Members</a>
+        </div>
+        <div class="language-toggle">
+            <button onclick="toggleLanguage('en')" class="lang-btn active">EN</button>
+            <button onclick="toggleLanguage('hi')" class="lang-btn">हि</button>
+        </div>
+    </nav>
+
+    <main class="blog-page">
+        <section class="hero">
+            <h1>Blog</h1>
+            <p>Explore articles about Hindi literature, culture, and community</p>
+        </section>
+
+        <section class="blog-grid">
+            <article class="blog-card">
+                <img src="/public/blog/hindi-literature.svg" alt="Evolution of Hindi Literature">
+                <div class="blog-content">
+                    <h2>The Evolution of Hindi Literature</h2>
+                    <div class="blog-meta">
+                        <span>By Priya Sharma</span> • <span>March 10, 2024</span>
+                    </div>
+                    <p class="blog-excerpt">Explore the rich history and development of Hindi literature from its classical roots to contemporary expressions. This article delves into the various periods and influential writers that shaped the language.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="/public/blog/hindi-literature.svg" alt="Modern Hindi Poetry">
+                <div class="blog-content">
+                    <h2>Modern Hindi Poetry: Breaking Boundaries</h2>
+                    <div class="blog-meta">
+                        <span>By Rahul Verma</span> • <span>March 5, 2024</span>
+                    </div>
+                    <p class="blog-excerpt">Discover how contemporary Hindi poets are pushing the boundaries of traditional forms while maintaining the essence of the language's poetic traditions.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tatsam. All rights reserved.</p>
+    </footer>
+
+    <script src="/scripts/main.js"></script>
+</body>
+</html>

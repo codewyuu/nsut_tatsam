@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#E31837"/>
+  
+  <!-- Decorative Border -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#FFC72C" stroke-width="3"/>
+  
+  <!-- Hindi Letter त -->
+  <path d="M60 70 Q75 70 85 75 Q95 80 95 90 L95 120 Q95 130 85 135 Q75 140 60 140 M60 90 L95 90 M60 120 L95 120" fill="none" stroke="#FFC72C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Stylized Book Shape -->
+  <path d="M110 60 Q130 60 140 70 Q150 80 150 100 Q150 120 140 130 Q130 140 110 140 L110 60" fill="none" stroke="#FFC72C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="75" cy="105" r="3" fill="#FFC72C"/>
+  <circle cx="130" cy="100" r="3" fill="#FFC72C"/>
+</svg>

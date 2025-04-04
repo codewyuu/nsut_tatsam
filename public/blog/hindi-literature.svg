@@ -1,0 +1,28 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFF8E1"/>
+  
+  <!-- Stylized Book -->
+  <path d="M100 80 L300 80 L300 220 L100 220 Z" fill="#E31837"/>
+  <path d="M110 90 L290 90 L290 210 L110 210 Z" fill="white"/>
+  
+  <!-- Hindi Text Lines -->
+  <line x1="130" y1="120" x2="270" y2="120" stroke="#E31837" stroke-width="2"/>
+  <line x1="130" y1="140" x2="270" y2="140" stroke="#E31837" stroke-width="2"/>
+  <line x1="130" y1="160" x2="270" y2="160" stroke="#E31837" stroke-width="2"/>
+  <line x1="130" y1="180" x2="220" y2="180" stroke="#E31837" stroke-width="2"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="50" r="20" fill="#FFC72C"/>
+  <path d="M180 50 L220 50" stroke="#E31837" stroke-width="3"/>
+  <path d="M200 30 L200 70" stroke="#E31837" stroke-width="3"/>
+  
+  <!-- Hindi Text -->
+  <text x="200" y="250" font-family="Arial" font-size="20" fill="#E31837" text-anchor="middle">हिंदी साहित्य</text>
+  
+  <!-- Corner Decorations -->
+  <circle cx="100" cy="80" r="5" fill="#FFC72C"/>
+  <circle cx="300" cy="80" r="5" fill="#FFC72C"/>
+  <circle cx="100" cy="220" r="5" fill="#FFC72C"/>
+  <circle cx="300" cy="220" r="5" fill="#FFC72C"/>
+</svg>
