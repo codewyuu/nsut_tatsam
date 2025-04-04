@@ -27,12 +27,23 @@
             <button onclick="toggleLanguage('en')" class="lang-btn active">EN</button>
             <button onclick="toggleLanguage('hi')" class="lang-btn">हि</button>
         </div>
+        <div class="theme-toggle">
+            <button onclick="toggleTheme()" class="theme-toggle-btn" title="Toggle dark mode">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
     </nav>
 
     <main class="home-page">
         <section class="hero">
             <h1>Welcome to Tatsam</h1>
             <p>A community dedicated to promoting and preserving Hindi literature</p>
+            <div class="featured-title">
+                <h2>Featured Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut leo lorem.</p>
+            </div>
         </section>
 
         <section class="featured-events">
@@ -53,5 +64,16 @@
     </footer>
 
     <script src="/scripts/main.js"></script>
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+            if (currentTheme === 'dark') {
+                body.removeAttribute('data-theme');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+            }
+        }
+    </script>
 </body>
 </html>
